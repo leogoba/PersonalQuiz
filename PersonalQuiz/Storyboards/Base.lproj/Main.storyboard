@@ -216,6 +216,12 @@
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WD2-fB-Tke">
                                 <rect key="frame" x="0.0" y="92.5" width="320" height="4"/>
                             </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVf-Rf-pJO">
+                                <rect key="frame" x="16" y="106.5" width="41.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HvC-0x-hrQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -223,12 +229,15 @@
                             <constraint firstItem="WD2-fB-Tke" firstAttribute="leading" secondItem="HvC-0x-hrQ" secondAttribute="leading" id="4bc-rg-IBh"/>
                             <constraint firstItem="Q8a-FT-X5D" firstAttribute="centerX" secondItem="2hF-jV-QPE" secondAttribute="centerX" id="A5a-Bt-ydC"/>
                             <constraint firstItem="hGm-Xn-XtV" firstAttribute="centerY" secondItem="2hF-jV-QPE" secondAttribute="centerY" id="CaS-wD-OEB"/>
+                            <constraint firstItem="HvC-0x-hrQ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qVf-Rf-pJO" secondAttribute="trailing" constant="262" id="K4g-Nw-ct8"/>
                             <constraint firstItem="Q8a-FT-X5D" firstAttribute="centerY" secondItem="2hF-jV-QPE" secondAttribute="centerY" id="KMW-e6-nnU"/>
                             <constraint firstItem="HvC-0x-hrQ" firstAttribute="trailing" secondItem="hGm-Xn-XtV" secondAttribute="trailing" constant="16" id="MEb-pU-oCb"/>
+                            <constraint firstItem="qVf-Rf-pJO" firstAttribute="leading" secondItem="HvC-0x-hrQ" secondAttribute="leading" constant="16" id="XrM-HB-9f6"/>
                             <constraint firstItem="WD2-fB-Tke" firstAttribute="top" secondItem="HvC-0x-hrQ" secondAttribute="top" id="YaN-x2-BOw"/>
                             <constraint firstItem="Cxa-K5-T85" firstAttribute="leading" secondItem="HvC-0x-hrQ" secondAttribute="leading" constant="16" id="eTo-OL-wVD"/>
                             <constraint firstItem="hGm-Xn-XtV" firstAttribute="leading" secondItem="HvC-0x-hrQ" secondAttribute="leading" constant="16" id="ki5-eC-y2p"/>
                             <constraint firstItem="HvC-0x-hrQ" firstAttribute="trailing" secondItem="WD2-fB-Tke" secondAttribute="trailing" id="nfk-gE-5ll"/>
+                            <constraint firstItem="qVf-Rf-pJO" firstAttribute="top" secondItem="WD2-fB-Tke" secondAttribute="bottom" constant="10" id="qr8-EQ-hc0"/>
                             <constraint firstItem="Cxa-K5-T85" firstAttribute="centerY" secondItem="2hF-jV-QPE" secondAttribute="centerY" id="wjq-ea-LPp"/>
                             <constraint firstItem="HvC-0x-hrQ" firstAttribute="trailing" secondItem="Cxa-K5-T85" secondAttribute="trailing" constant="16" id="xYb-Rz-Hje"/>
                         </constraints>
