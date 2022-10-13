@@ -56,15 +56,47 @@
 		52DEFC2728F854BD00ACE6D5 /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				52DEFC2828F854BD00ACE6D5 /* AppDelegate.swift */,
-				52DEFC2A28F854BD00ACE6D5 /* SceneDelegate.swift */,
-				52DEFC2C28F854BD00ACE6D5 /* ViewController.swift */,
-				52DEFC2E28F854BD00ACE6D5 /* Main.storyboard */,
+				52DEFC3D28F85D9300ACE6D5 /* ViewControllers */,
+				52DEFC3F28F85DFD00ACE6D5 /* Models */,
+				52DEFC3C28F85D2500ACE6D5 /* App */,
+				52DEFC3E28F85DBD00ACE6D5 /* Storyboards */,
 				52DEFC3128F854BF00ACE6D5 /* Assets.xcassets */,
-				52DEFC3328F854BF00ACE6D5 /* LaunchScreen.storyboard */,
-				52DEFC3628F854BF00ACE6D5 /* Info.plist */,
 			);
 			path = PersonalQuiz;
+			sourceTree = "<group>";
+		};
+		52DEFC3C28F85D2500ACE6D5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				52DEFC2828F854BD00ACE6D5 /* AppDelegate.swift */,
+				52DEFC2A28F854BD00ACE6D5 /* SceneDelegate.swift */,
+				52DEFC3628F854BF00ACE6D5 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		52DEFC3D28F85D9300ACE6D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52DEFC2C28F854BD00ACE6D5 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52DEFC3E28F85DBD00ACE6D5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				52DEFC2E28F854BD00ACE6D5 /* Main.storyboard */,
+				52DEFC3328F854BF00ACE6D5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		52DEFC3F28F85DFD00ACE6D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RT53XMPLTN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,7 +352,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RT53XMPLTN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
