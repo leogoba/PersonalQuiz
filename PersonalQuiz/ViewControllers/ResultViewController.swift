@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ResultViewController.swift
 //  PersonalQuiz
 //
 //  Created by leogoba on 13.10.2022.
@@ -7,15 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    private let questions = Question.getQuestions()
+class ResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
-
 }
-
