@@ -193,7 +193,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Ответить"/>
                                         <connections>
-                                            <action selector="multipleAnswerButtonPressed:" destination="rxv-si-CgF" eventType="touchUpInside" id="oQ5-DY-JlQ"/>
+                                            <action selector="multipleAnswerButtonPressed" destination="rxv-si-CgF" eventType="touchUpInside" id="KJp-3X-UkI"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -226,7 +226,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Ответить"/>
                                         <connections>
-                                            <action selector="rangedAnswerButtonPressed" destination="rxv-si-CgF" eventType="touchUpInside" id="aC7-IZ-no8"/>
+                                            <action selector="rangedAnswerButtonPressed" destination="rxv-si-CgF" eventType="touchUpInside" id="Muu-WI-s0q"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -276,10 +276,10 @@
                         <outletCollection property="multipleLabels" destination="iwE-ln-dq3" collectionClass="NSMutableArray" id="CGd-pc-uoc"/>
                         <outletCollection property="multipleLabels" destination="Hwa-Xo-l6H" collectionClass="NSMutableArray" id="Vl3-fg-Flf"/>
                         <outletCollection property="multipleLabels" destination="73o-Va-vKD" collectionClass="NSMutableArray" id="wm1-6K-qfM"/>
-                        <outletCollection property="multipleSwitch" destination="Tvx-NV-Anb" collectionClass="NSMutableArray" id="jYk-Jr-Wka"/>
-                        <outletCollection property="multipleSwitch" destination="DQY-pU-qVf" collectionClass="NSMutableArray" id="J1j-vo-vCT"/>
-                        <outletCollection property="multipleSwitch" destination="Spv-Eu-5gb" collectionClass="NSMutableArray" id="Y9n-HU-gaS"/>
-                        <outletCollection property="multipleSwitch" destination="kUJ-LC-UvH" collectionClass="NSMutableArray" id="bA4-dW-O1F"/>
+                        <outletCollection property="multipleSwitches" destination="Tvx-NV-Anb" collectionClass="NSMutableArray" id="jYk-Jr-Wka"/>
+                        <outletCollection property="multipleSwitches" destination="DQY-pU-qVf" collectionClass="NSMutableArray" id="J1j-vo-vCT"/>
+                        <outletCollection property="multipleSwitches" destination="Spv-Eu-5gb" collectionClass="NSMutableArray" id="Y9n-HU-gaS"/>
+                        <outletCollection property="multipleSwitches" destination="kUJ-LC-UvH" collectionClass="NSMutableArray" id="bA4-dW-O1F"/>
                         <outletCollection property="rangedLabels" destination="e0r-5y-tv0" collectionClass="NSMutableArray" id="U23-Qn-yGi"/>
                         <outletCollection property="rangedLabels" destination="VnZ-Fi-I9T" collectionClass="NSMutableArray" id="JfA-96-MEK"/>
                         <segue destination="Sw7-Y0-kWq" kind="show" identifier="showResult" id="C7a-9J-miw"/>
@@ -323,7 +323,13 @@
                             <constraint firstItem="SEw-Ep-rIo" firstAttribute="centerY" secondItem="bqD-pq-qLS" secondAttribute="centerY" id="uYy-Ni-KgM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Результат" id="B3U-F6-UIp"/>
+                    <navigationItem key="navigationItem" title="Результат" id="B3U-F6-UIp">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="vLY-YJ-TWH">
+                            <connections>
+                                <action selector="doneButtonPressed:" destination="Sw7-Y0-kWq" id="47V-CF-f7V"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7St-t6-zEu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
